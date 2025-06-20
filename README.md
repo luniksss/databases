@@ -15,15 +15,15 @@
  14. SQL. DML. INSERT, DELETE, UPDATE
  15. Индексы.
  16. Ограничения целостности
- 17. [Транзакции. Уровни изоляции.](https://github.com/luniksss/databases/edit/main/README.md#17-%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D0%B8-%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B8-%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8)
- 18. [Хранимые процедуры и триггеры.](https://github.com/luniksss/databases/edit/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
- 19. [Масштабирование БД. Репликация.](https://github.com/luniksss/databases/edit/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
- 20. [Масштабирование БД. Шардинг.](https://github.com/luniksss/databases/edit/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
- 21. [Масштабирование БД. Партиционирование.](https://github.com/luniksss/databases/edit/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
- 22. [Оптимизация запросов.](https://github.com/luniksss/databases/edit/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
- 23. [План выполнения запроса.](https://github.com/luniksss/databases/edit/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
- 24. [OLAP и OLTP. Предназначения и отличия](https://github.com/luniksss/databases/edit/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
- 25. [NoSQL. Виды БД и их предназначения](https://github.com/luniksss/databases/edit/main/README.md#25-nosql-%D0%B2%D0%B8%D0%B4%D1%8B-%D0%B1%D0%B4-%D0%B8-%D0%B8%D1%85-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)
+ 17. [Транзакции. Уровни изоляции.](https://github.com/luniksss/databases/main/README.md#17-%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D0%B8-%D1%83%D1%80%D0%BE%D0%B2%D0%BD%D0%B8-%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8)
+ 18. [Хранимые процедуры и триггеры.](https://github.com/luniksss/databases/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
+ 19. [Масштабирование БД. Репликация.](https://github.com/luniksss/databases/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
+ 20. [Масштабирование БД. Шардинг.](https://github.com/luniksss/databases/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
+ 21. [Масштабирование БД. Партиционирование.](https://github.com/luniksss/databases/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
+ 22. [Оптимизация запросов.](https://github.com/luniksss/databases/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
+ 23. [План выполнения запроса.](https://github.com/luniksss/databases/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
+ 24. [OLAP и OLTP. Предназначения и отличия](https://github.com/luniksss/databases/main/README.md#24-olap-%D0%B8-oltp-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B8-%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B8%D1%8F)
+ 25. [NoSQL. Виды БД и их предназначения](https://github.com/luniksss/databases/main/README.md#25-nosql-%D0%B2%D0%B8%D0%B4%D1%8B-%D0%B1%D0%B4-%D0%B8-%D0%B8%D1%85-%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F)
 
 ### 1. Чем отличает БД от СУБД? Какие задачи решает СУБД? Раскройте детали каждой задачи.
 **База данных** – совокупность данных, хранимых в соответствии со схемой данных, манипулирование которыми выполняют в соответствии с правилами средств моделирования данных.
