@@ -377,10 +377,48 @@ NULL-значения -- Введено с целью различать в по
 • если активирована поддержка значений NULL, в столбец вставляется значение NULL;  
 • если поддержка значений не активирована, столбец остается пустым, но пользователь не сможет сохранить строку, пока не предоставит какое-либо значение.  
 
-AUTO_INCREMENT IDENTITY - Используется для генерации уникального идентификатора для новых записей БД  
-![image](https://github.com/user-attachments/assets/8194535c-4574-4fc2-9112-02f9ca492cd0)
-
 ### 12. SQL. DDL. Пример запроса создания таблицы. Автоинкремент vs GUID.
+**SQL** - (structured query language — «язык структурированных запросов») язык программирования, применяемый для создания, модификации и управления данными в реляционной базе данных.  
+**DDL** – data definition language (язык определения данных)  
+Включает всевозможные команды:  
+• создания (CREATE)  
+• удаления (DROP)  
+• изменения структуры (ALTER)  
+Объектов, таких, как:  
+• таблицы (TABLE)  
+• представления (VIEW)  
+• триггеры (TRIGGER)  
+• пользователи (USER)  
+
+_Создание и удаление баз данных_  
+`CREATE DATABASE [IF NOT EXISTS] db_name`  
+`DROP DATABASE [IF EXISTS] db_name`  
+
+```
+CREATE [TEMPORARY] TABLE [IF NOT EXISTS]
+tbl_name (create_definition,...)
+[table_option ...]
+
+CREATE [TEMPORARY] TABLE [IF NOT EXISTS]
+tbl_name [(create_definition,...)]
+[table_option ...]
+select_statement
+
+CREATE [TEMPORARY] TABLE [IF NOT EXISTS]
+tbl_name
+{ LIKE old_tbl_name | (LIKE old_tbl_name) }
+
+CREATE TABLE IF NOT EXISTS `mydb`.`course` (
+`id_course` INT NOT AUTO_INCREMENT,
+`title` VARCHAR(245) ,
+`hours` TINYINT UNSIGNED NULL,
+PRIMARY KEY (`id_course`) )
+ENGINE = InnoDB
+```
+
+AUTO_INCREMENT IDENTITY - Используется для генерации уникального идентификатора для новых записей БД  
+![image](https://github.com/user-attachments/assets/8194535c-4574-4fc2-9112-02f9ca492cd0)  
+
 ### 13. SQL. DML. SELECT
 ### 14. SQL. DML. INSERT, DELETE, UPDATE
 ### 15. Индексы.
